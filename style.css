@@ -1,0 +1,161 @@
+.hover:hover {
+    color: white;
+    background-color: black;
+    width: 5%;
+    height: 4vh;
+    font: 15px;
+    align-content: center;
+    text-align: center;
+    margin-left: 0.2%;
+}
+
+.firstchild {
+    color: blue;
+    font: 10px;
+    margin-left: 0.2%;
+}
+
+.firstchild div:first-child {
+    color: red;
+    background-color: rgba(128, 0, 128, 0.192);
+    width: 3%;
+    height: 2vh;
+    font: 10px;
+    align-content: center;
+    text-align: center;
+    margin-left: 0.2%;
+}
+
+[lang='es']::before { 
+    content: '(In Spanish) '; }
+
+a:active {
+    color: rgb(109, 109, 109);
+    text-decoration: none;
+} 
+
+input:checked {
+    width: 20px;
+    height: 20px;
+}
+
+input[type=text]:enabled {
+    background-color: aquamarine;
+}
+
+input[type=text]:disabled {
+    background-color: aqua;
+}
+
+.empty:empty {
+    background-color: orange;
+    width: 2%;
+    height: 2vh;
+}
+
+.first-of-type {
+    color: blue;
+    font: 10px;
+    margin-left: 0.2%;
+}
+
+.first-of-type div:first-of-type {
+    color: red;
+    background-color: rgba(128, 0, 128, 0.192);
+    width: 3%;
+    height: 2vh;
+    font: 10px;
+    align-content: center;
+    text-align: center;
+    margin-left: 0.2%;
+}
+
+input.focus:focus {
+    background-color: lightcoral;
+}
+
+input.range:in-range {
+    border: 1px solid blue;
+}
+
+input.invalid:invalid {
+    border: 1px solid rebeccapurple;
+}
+
+.lastchild {
+    color: blue;
+    font: 10px;
+    margin-left: 0.2%;
+}
+
+.lastchild div:last-child {
+    color: red;
+    background-color: rgba(128, 0, 128, 0.192);
+    width: 3%;
+    height: 2vh;
+    font: 10px;
+    align-content: center;
+    text-align: center;
+    margin-left: 0.2%;
+}
+
+.last-of-type {
+    color: blue;
+    font: 10px;
+    margin-left: 0.2%;
+}
+
+.last-of-type div:last-of-type {
+    color: red;
+    background-color: rgba(128, 0, 128, 0.192);
+    width: 3%;
+    height: 2vh;
+    font: 10px;
+    align-content: center;
+    text-align: center;
+    margin-left: 0.2%;
+}
+
+a.link {
+    color: blueviolet;
+}
+
+div.notdiv:not(p){
+    color: bisque;
+} 
+
+div.notdiv>div {
+    color: red;
+}
+
+.nchild>div:nth-child(2){
+    color: rgb(148, 255, 162);
+}
+
+.nlastchild>div:nth-last-child(3){
+    color: rgb(210, 255, 46);
+}
+
+.nlasttype>div:nth-last-of-type(2) {
+    color: brown;
+}
+
+.ntype>div:nth-of-type(3) {
+    color: burlywood;
+}
+
+.onlyoftype p:only-of-type {
+    color: lightcoral;
+}
+
+.onlychild p:only-child {
+    color: rgb(150, 95, 253);
+}
+
+input.optional:optional {
+    background-color: rgb(177, 1, 177);
+}
+
+input.required:required {
+    background-color: rgb(250, 2, 126);
+}
