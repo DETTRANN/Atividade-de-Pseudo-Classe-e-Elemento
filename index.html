@@ -1,39 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Atividade Pseudo Classe e Elemento</title>
 </head>
+
 <body>
     <h1 id="h1">Pseudo Classe</h1>
 
     <div class="hover">hover</div>
+
+    <div>-------------------------------------------------------------</div>
 
     <div class="firstchild">
         <div>abacaxi</div>
         <div>acaxabi</div>
     </div>
 
+    <div>-------------------------------------------------------------</div>
+
     <div class="lang" lang="es">habla conmigo</div>
 
+    <div>-------------------------------------------------------------</div>
+
     <div>
-        <input type="radio" checked="checked" value="homi" name="gender"> homi 
+        <input type="radio" checked="checked" value="homi" name="gender"> homi
         <input type="radio" value="muie" name="gender"> muie
     </div>
+
+    <div>-------------------------------------------------------------</div>
 
     <div>
         digite seu nome: <input type="text" value="paulo"> <br>
         digite seu sobrenome: <input type="text" disabled="disabled" value="teixera">
     </div>
-    
+
+    <div>-------------------------------------------------------------</div>
+
     <div class="empty"></div>
+
+    <div>-------------------------------------------------------------</div>
 
     <div class="first-of-type">
         <div>cavalo</div>
         <div>vacalu</div>
     </div>
+
+    <div>-------------------------------------------------------------</div>
 
     <div>
         clique em um pra mudar a cor <br>
@@ -41,27 +57,39 @@
         sobrenome: <input class="focus" type="text">
     </div>
 
+    <div>-------------------------------------------------------------</div>
+
     <div>
         digite um numero menor que 3 ou maior que 7 <br>
         <input type="number" min="3" max="7" value="5" class="range">
     </div>
+
+    <div>-------------------------------------------------------------</div>
 
     <div>
         digite um email: <br>
         <input type="email" value="supportEmail" class="invalid">
     </div>
 
+    <div>-------------------------------------------------------------</div>
+
     <div class="lastchild">
         <div>barro</div>
         <div>robar</div>
     </div>
+
+    <div>-------------------------------------------------------------</div>
 
     <div class="last-of-type">
         <div>super</div>
         <div>perus</div>
     </div>
 
-    <a href="https://pt.wikipedia.org/wiki/Brasil" class="link"> Wikipedia</a>
+    <div>-------------------------------------------------------------</div>
+
+    <a href="https://pt.wikipedia.org/wiki/Brasil" class="link"> Wikipedia do brasa</a>
+
+    <div>-------------------------------------------------------------</div>
 
     <div class="notdiv">
         <div>not teste</div>
@@ -69,10 +97,14 @@
         <p>not teste</p>
     </div>
 
+    <div>-------------------------------------------------------------</div>
+
     <div class="nchild">
         <div>nchild teste</div>
         <div>nchild teste</div>
     </div>
+
+    <div>-------------------------------------------------------------</div>
 
     <div class="nlastchild">
         <div>nlastchild teste</div>
@@ -81,18 +113,24 @@
         <div>nlastchild teste</div>
     </div>
 
+    <div>-------------------------------------------------------------</div>
+
     <div class="nlasttype">
         <div>nlasttype teste</div>
         <div>nlasttype teste</div>
         <div>nlasttype teste</div>
         <div>nlasttype teste</div>
-    </div>    
+    </div>
+
+    <div>-------------------------------------------------------------</div>
 
     <div class="ntype">
         <div>ntype teste</div>
         <div>ntype teste</div>
         <div>ntype teste</div>
     </div>
+
+    <div>-------------------------------------------------------------</div>
 
     <div class="onlyoftype">
         <div>
@@ -104,6 +142,8 @@
         </div>
     </div>
 
+    <div>-------------------------------------------------------------</div>
+
     <div class="onlychild">
         <div>
             <p>only child</p>
@@ -114,16 +154,112 @@
         </div>
     </div>
 
+    <div>-------------------------------------------------------------</div>
+
     <div>
         voce nao e obrigado a escrever
         <input class="optional">
     </div>
 
+    <div>-------------------------------------------------------------</div>
+
     <div>
-        voce e obrigado a escrever 
+        voce e obrigado a escrever
         <input class="required" required>
     </div>
 
+    <div>-------------------------------------------------------------</div>
+
+    <div>
+        digite um numero menor que 3 ou maior que 7 <br>
+        <input type="number" min="3" max="7" value="12" class="out-range">
+    </div>
+
+    <div>-------------------------------------------------------------</div>
+
+    <div>
+        input que so pode ler <br>
+        <input class="readonly" readonly value="voce nao pode escrever ha">
+    </div>
+
+    <div>-------------------------------------------------------------</div>
+
+    <div>
+        input que da para ler e escrever <br>
+        <input class="readwrite" value="nesse voce pode">
+    </div>
+
+    <div>-------------------------------------------------------------</div>
+
+    <div>
+        <div id="target1">target 1</div>
+        <a href="#target1">ir para target 1</a>
+    </div>
+
+    <div>-------------------------------------------------------------</div>
+
+    <div>
+        digite um email invalido: <br>
+        <input type="email" value="supporte@example.com" class="valid">
+    </div>
+
+    <div>-------------------------------------------------------------</div>
+
+    <div>
+        <a class="visited" href="https://pt.wikipedia.org/wiki/Brasil">Wikipedia do brasa</a>
+    </div>
+
     <a href="#h1">ir para pseudo classses</a>
+
+
+    <h1>Pseudo Elementos</h1>
+
+    <div class="after">
+        <div>ola</div>
+        <div>boa tarde</div>
+    </div>
+
+    <div>-------------------------------------------------------------</div>
+
+    <div class="before">
+        <div>tudo bem?</div>
+        <div>boa tarde</div>
+    </div>
+
+    <div>-------------------------------------------------------------</div>
+
+    <div class="firstletter">
+        <div>Fala comigo</div>
+        <div>Eu estou bem, e voce?</div>
+    </div>
+
+    <div>-------------------------------------------------------------</div>
+
+    <div class="firstline">
+        <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, maiores. Ipsum consectetur deserunt illo
+            omnis et labore explicabo sint a nostrum! Labore excepturi est vitae ratione numquam obcaecati aliquam
+            dicta!
+        </div>
+    </div>
+
+    <div>-------------------------------------------------------------</div>
+
+    <ul>
+        <li>Sapato</li>
+        <li>Tenis</li>
+    </ul>
+
+    <ol>
+        <li>Cavalo</li>
+        <li>Macaco</li>
+    </ol>
+
+    <div>-------------------------------------------------------------</div>
+
+    <div class="selection">
+        <div>Selecione alguma parte do texto para a magica acontecer</div>
+    </div>
+
 </body>
+
 </html>
